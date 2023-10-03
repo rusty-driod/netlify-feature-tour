@@ -35,13 +35,15 @@ function ExerciseStart({ handleClick, output, children }) {
   );
 }
 
-function ExerciseFinish() {
+function ExerciseFinish({ output }) {
   return (
     <>
       <h2>You did it!</h2>
       <p>
-        You’ve successfully created your first Netlify Function! Great work!
+        You’ve successfully created your first Netlify Function! Great work
       </p>
+      <h2>your result:</h2>
+      <p>{output}</p>
     </>
   );
 }
@@ -63,7 +65,8 @@ run \`netlify dev\` in your CLI.`
   }
 
   return output === "hello world!" ? (
-    <ExerciseFinish />
+    <ExerciseFinish output={output}>
+    </ExerciseFinish>
   ) : (
     <ExerciseStart handleClick={handleClick} output={output}>
       {children}
