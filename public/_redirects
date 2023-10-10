@@ -1,3 +1,4 @@
+/ ntt=:ntt /search 301
 /leighton   /instant-rollbacks/
 /rollback   /instant-rollbacks/  200
 /bbc        https://www.bbc.co.uk 200
@@ -5,4 +6,3 @@
 /redirect   https://www.bbc.co.uk 301
 /wines ntt=:ntt queryid=:id /search 301
 /wines ntt=:ntt /search/:ntt 301
-/ ntt=:ntt /search 301
