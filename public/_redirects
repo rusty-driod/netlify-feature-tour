@@ -3,5 +3,5 @@
 /bbc        https://www.bbc.co.uk 200
 /lw         https://www.laithwaites.co.uk 200
 /redirect   https://www.bbc.co.uk 301
-/wines/ ntt=:ntt queryid=:id /search/:ntt/:id 301
+/wines/ ntt=:ntt /search/:ntt/ 301
 /*          / 200
