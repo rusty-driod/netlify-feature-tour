@@ -5,4 +5,4 @@
 /lw         https://www.laithwaites.co.uk 200
 /redirect   https://www.bbc.co.uk 301
 /wines ntt=:ntt queryid=:id /search 301
-/wines ntt=:ntt /search/:ntt 301
+/wines ntt=:ntt /example-with-query-as-path/:ntt 301
