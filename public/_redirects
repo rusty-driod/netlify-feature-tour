@@ -3,4 +3,5 @@
 /bbc        https://www.bbc.co.uk 200
 /lw         https://www.laithwaites.co.uk 200
 /redirect   https://www.bbc.co.uk 301
+/wines Ntt=:searchValue queryId=:queryid /search query=:searchValue 301
 /*          / 200
